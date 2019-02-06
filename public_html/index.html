@@ -7,22 +7,25 @@
     </head>
     <body>
         <nav id="topnav" class="navbar">
-            <a href="#">one</a>
-            <a href="#">one</a>
-            <a href="#">one</a>
+            <a href="#">LEFT</a>
+            <a href="#">Right</a>
         </nav>
-        <div id="main">
-            <img src="img/gogglelogo_color_272x92dp.png">
-            <form id="search" action="/search" method="GET">
-                <input type="search"><br>
-                <input type="submit" value="Search">
-                <input type="submit" value="I'm Feeling Lucky">
+        <div class="maindiv">
+            <img src="img/gogglelogo_color_272x92dp.png" alt="Goggle" id="mainlogo">
+            <form action="/search" method="GET">
+                <div id="search-container">
+                    <input type="search" placeholder="Search..." autocomplete="off" id="bar">
+                </div>
+                <div id="voice-container">
+                    <input type="image" src="img/gogglemic24p.png" alt="Voice" id="voice">
+                </div>
+                <input type="submit" value="Goggle Search" class="btn">
+                <input type="submit" value="I'm Feeling Lucky" class="btn">
             </form>
         </div>
         <nav id="botnav" class="navbar">
-            <a href="#">one</a>
-            <a href="#">one</a>
-            <a href="#">one</a>
+            <a href="#">left</a>
+            <a href="#">right</a>
         </nav>
     </body>
 </html>
