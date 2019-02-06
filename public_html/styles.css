@@ -1,0 +1,17 @@
+head, body, nav, div {
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+#topnav {
+    bottom: 100;
+}
+
+#botnav {
+    bottom: 0;
+}
