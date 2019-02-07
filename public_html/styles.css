@@ -1,7 +1,7 @@
 head, body, nav, div {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     border: 0px;
     margin: 0px;
 }
@@ -11,10 +11,21 @@ head, body, nav, div {
     position: fixed;
     width: 100%;
     overflow: hidden;
-    margin: 5px;
+    padding: 0px;
+}
+
+.navbar a {
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 .maindiv {
+    font-size: 16px;
     position: absolute;
     top: 30%;
     width: 100%;
@@ -82,12 +93,37 @@ head, body, nav, div {
     margin: 10px;
 }
 
+.left {
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
 #topnav {
     bottom: 100;
+    margin-top: 20px;
 }
 
 #botnav {
     bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: rgb(230, 230, 230);
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+.left a {
+    margin-left: 20px;
+}
+
+.right a {
+    margin-right: 20px;
 }
 
 input[type="search"]::-webkit-search-decoration,
